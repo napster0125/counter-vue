@@ -10,11 +10,16 @@
 <!-- <style scoped lang="css" src="./styles/common/reset.css"></style> -->
 
 <style lang="scss" scoped>
+
 @import './styles/common/reset.scss';
 
 button {
 	background-color: rgba(0, 0, 255, 0.3);
 }
+
+</style>
+
+<style lang="scss">
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
