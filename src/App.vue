@@ -1,13 +1,18 @@
 <template>
   <div id="nav">
+	<button>Button</button>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </div>
   <router-view/>
 </template>
 
+<!-- <style scoped lang="css" src="./styles/common/reset.css"></style> -->
+
 <style lang="scss" scoped>
-div {
+@import './styles/common/reset.scss';
+
+button {
 	background-color: rgba(0, 0, 255, 0.3);
 }
 
