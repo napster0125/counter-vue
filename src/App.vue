@@ -6,7 +6,11 @@
   <router-view/>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
+div {
+	background-color: rgba(0, 0, 255, 0.3);
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
