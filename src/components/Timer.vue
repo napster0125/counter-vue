@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<button class="x bg-gray-400">Button Child</button>
+		<button class="x bg-gray-100">Button Child</button>
 	</div>
 </template>
 
