@@ -20,18 +20,18 @@ module.exports = {
 					/(?<=<)[A-Za-z][A-Za-z0-9]*(?= |\/>)/g
 				) || []
 
-				console.log(
-					Object.keys(
-						classIdAttributeSelectors.map(o => '.' + o)
-							.concat(tagSelectors.map(o => `<${o}>`))
-							.reduce((a, o) => {
-								a[o] = true
-								return a
-							}, {})
-					)
-						.sort()
-						.join('\r\n')
-				)
+				// console.log(
+				// 	Object.keys(
+				// 		classIdAttributeSelectors.map(o => '.' + o)
+				// 			.concat(tagSelectors.map(o => `<${o}>`))
+				// 			.reduce((a, o) => {
+				// 				a[o] = true
+				// 				return a
+				// 			}, {})
+				// 	)
+				// 		.sort()
+				// 		.join('\r\n')
+				// )
 
 				return {
 					attributes: {

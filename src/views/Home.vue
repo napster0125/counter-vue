@@ -1,4 +1,6 @@
 <template>
+	<button>Button Parent</button>
+	<br/>
 	<Timer msg="Welcome to Your Vue.js + TypeScript App"/>
 </template>
 
@@ -14,7 +16,9 @@
 	export default class Home extends Vue {}
 </script>
 
-<!--<style scoped lang="scss" src="../styles/app/common.scss"></style>-->
-<style lang="scss" scoped>
-
+<style scoped lang="scss" src="../styles/app/common.scss"></style>
+<style scoped lang="scss">
+	button {
+		color: blue;
+	}
 </style>
