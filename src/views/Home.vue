@@ -14,8 +14,7 @@
 	export default class Home extends Vue {}
 </script>
 
-<!-- <style scoped lang="css" src="../styles/common/reset.css"></style> -->
+<!--<style scoped lang="scss" src="../styles/app/common.scss"></style>-->
 <style lang="scss" scoped>
-	@import '../styles/app/common.scss';
 
 </style>
