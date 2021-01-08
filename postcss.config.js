@@ -50,6 +50,17 @@ module.exports = {
 				/^router-link(|-exact)-active$/,
 				/data-v-.*/
 			]
-		})
+		}),
+		require('cssnano')({
+			preset: [
+				'default', {
+					discardComments: {
+						removeAll: true,
+					},
+					calc: false,
+					// normalizeUnicode: false,
+				},
+			],
+		}),
 	]
 }
