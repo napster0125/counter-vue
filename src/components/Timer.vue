@@ -1,7 +1,7 @@
 <template>
-	<div class="hello">
-		sdf
-	</div>
+	<button class="x bg-gray-600">
+		sdff
+	</button>
 </template>
 
 <script lang="ts">
@@ -17,10 +17,9 @@
 	}
 </script>
 
-<style lang="scss" scoped>
-	@import '../styles/app/common.scss';
-
-	div {
-		background-color: rgba(0, 0, 255, 0.1);
+<style scoped lang="scss" src="../styles/app/common.scss"></style>
+<style scoped lang="scss">
+	button {
+		color: yellow;
 	}
 </style>
