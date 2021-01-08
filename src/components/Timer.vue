@@ -1,7 +1,7 @@
 <template>
-	<button class="x bg-gray-600">
-		sdff
-	</button>
+	<div>
+		<button class="x bg-gray-400">Button Child</button>
+	</div>
 </template>
 
 <script lang="ts">
